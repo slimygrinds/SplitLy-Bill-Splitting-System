@@ -17,3 +17,26 @@ private string GetUserChoice()
     Console.Write("Enter your choice: ");
     return Console.ReadLine();
 }
+
+private void HandleMenuChoice(string choice)
+{
+    switch (choice)
+    {
+        case "1":
+            CreateBill();
+            break;
+
+        case "2":
+            ViewLastBill();
+            break;
+
+        case "3":
+            Environment.Exit(0);
+            break;
+
+        default:
+            Console.WriteLine("\nInvalid choice!");
+            Pause();
+            break;
+    }
+}
