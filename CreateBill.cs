@@ -16,3 +16,9 @@ private void CreateBill()
     Console.WriteLine("\n-------------------------------------------------");
     Console.WriteLine("Press any key to continue...");
     Console.ReadKey();
+
+    Console.Clear();
+
+    Console.WriteLine("=================================================");
+    Console.WriteLine("              PARTICIPANT DETAILS");
+    Console.WriteLine("=================================================\n");
