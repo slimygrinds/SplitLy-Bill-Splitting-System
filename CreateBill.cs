@@ -4,5 +4,5 @@ private void CreateBill()
     Console.Clear();
 
     Console.WriteLine("=================================================");
-    Console.WriteLine("                CREATE NEW BILL");
+    Console.WriteLine("              CREATE NEW BILL");
     Console.WriteLine("=================================================\n");
