@@ -9,4 +9,11 @@ private void ShowCreateBillUI()
 
     Console.Write("\nEnter Number of Participants: ");
     tempCount = int.Parse(Console.ReadLine()); 
+
+    Console.WriteLine("\n-------------------------------------------------");
+        Console.WriteLine("Press any key to continue...");
+        Console.ReadKey();
+
+        EnterParticipants(count);
+    
 }
