@@ -12,6 +12,13 @@ private void EnterParticipants(int count)
 
             Console.Write("Name: ");
             string name = Console.ReadLine();
+             Console.Write("Amount Paid: ₹");
+            decimal paid = decimal.Parse(Console.ReadLine());
+
+            participants.Add(new Participant { Name = name, Paid = paid });
+
+            Console.WriteLine("\n---------------------------------------------\n");
         }
 
+        ShowSummary();
     }
